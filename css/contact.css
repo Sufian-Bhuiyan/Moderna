@@ -1,0 +1,26 @@
+@import url("all.min.css");
+@import url("bootstrap.min.css");
+@import url("style-bs.css");
+
+/* Breadcrumb */
+
+.breadcrumb{
+    display: inline-flex;
+    padding: 10px 15px;
+}
+
+.contact-form .input-size{
+    width: 32%;
+}
+.second-input{
+    margin: 0 20px;
+}
+
+@media(max-width: 991px){
+    .input-size{
+        display: block;
+        margin: 20px 0;
+        width: 100% !important;
+    }
+}
+

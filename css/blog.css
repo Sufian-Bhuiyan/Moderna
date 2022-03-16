@@ -1,0 +1,46 @@
+@import url("all.min.css");
+@import url("bootstrap.min.css");
+@import url("style-bs.css");
+
+/* Breadcrumb */
+
+.breadcrumb{
+    display: inline-flex;
+    padding: 10px 15px;
+}
+
+/* Blog */
+
+.blog-section .img-fluid{
+    height: 300px;
+    width: 100%;
+}
+.page-item:first-child .page-link{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.page-item:last-child .page-link{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.page-item .page-link {
+    color: black;
+    border: none;  
+}
+.page-item.active .page-link{
+    background-color: black;
+}
+.page-item .page-link:hover{
+    background-color: black;
+    color: white;
+}
+
+#blog-search{
+    width: 100%;
+}
+
+.tags p{
+    padding: 5px 10px;
+    background-color: rgba(180, 172, 172, 0.794);
+    margin: 5px 5px;
+}

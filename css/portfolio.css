@@ -1,0 +1,10 @@
+@import url("all.min.css");
+@import url("bootstrap.min.css");
+@import url("style-bs.css");
+
+/* Breadcrumb */
+
+.breadcrumb{
+    display: inline-flex;
+    padding: 10px 15px;
+}
